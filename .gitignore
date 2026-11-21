@@ -1,0 +1,28 @@
+# credentials
+.env
+*.token
+.netrc
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# data and checkpoints, too large to version; see the README for the accession
+*.h5ad
+*.h5ad.gz
+*.h5
+*.pt
+*.ckpt
+data/
+work/
+checkpoints/
+
+# run artefacts
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
