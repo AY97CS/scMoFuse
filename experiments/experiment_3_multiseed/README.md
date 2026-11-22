@@ -14,7 +14,7 @@ the environment.
 
 ## Results
 
-Per-cell RMSE, mean plus or minus one sample standard deviation over the five
+RMSE, mean plus or minus one sample standard deviation over the five
 seeds.
 
 | Model | ATAC2GEX | GEX2ADT | Overall |
