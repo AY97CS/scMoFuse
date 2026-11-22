@@ -1,0 +1,54 @@
+{
+ "experiment": "Experiment 2 () Multiome split",
+ "test_batches": [
+  "s4d1",
+  "s4d8"
+ ],
+ "val_batches": [
+  "s4d9"
+ ],
+ "n_train": 47025,
+ "n_test": 17899,
+ "results": {
+  "ATAC2GEX": [
+   {
+    "RMSE_pooled": 0.24493084286094774,
+    "RMSE_per_cell": 0.24404761656180984,
+    "MSE": 0.05999111778457428,
+    "feature_PCC": 0.0,
+    "cell_PCC": 0.0,
+    "n_target_features": 13431,
+    "model": "ALL_ZEROS"
+   },
+   {
+    "RMSE_pooled": 0.24469350521661842,
+    "RMSE_per_cell": 0.243257139467013,
+    "MSE": 0.05987491149519527,
+    "feature_PCC": -8.892838569857825e-06,
+    "cell_PCC": 0.35173199327423343,
+    "n_target_features": 13431,
+    "model": "TRAIN_MEAN"
+   }
+  ],
+  "GEX2ATAC": [
+   {
+    "RMSE_pooled": 0.1850950296833841,
+    "RMSE_per_cell": 0.17625184547896075,
+    "MSE": 0.03426017001349284,
+    "feature_PCC": 0.0,
+    "cell_PCC": 0.0,
+    "n_target_features": 116490,
+    "model": "ALL_ZEROS"
+   },
+   {
+    "RMSE_pooled": 0.1731896774651797,
+    "RMSE_per_cell": 0.16647698633651736,
+    "MSE": 0.02999466438049297,
+    "feature_PCC": 0.0,
+    "cell_PCC": 0.3053239349720598,
+    "n_target_features": 116490,
+    "model": "TRAIN_MEAN"
+   }
+  ]
+ }
+}

@@ -17,6 +17,7 @@ Overall per-cell RMSE across the four directions, lower is better:
 | Configuration | Overall RMSE |
 |---|---|
 | Official split, single run | 0.2810 |
+| Site-matched validation, single run | 0.2746 |
 | Official split, five model seeds | 0.2809 ± 0.0005 |
 | Gate fitted on a held-out training site, five seeds | **0.2799 ± 0.0012** |
 
@@ -62,6 +63,7 @@ scMoFuse/
 ├── LICENSE
 └── experiments/
     ├── experiment_1_official_split/      baseline under the official protocol
+    ├── experiment_2_alternative_split/   site-matched validation
     ├── experiment_3_multiseed/           baseline repeated over five seeds
     └── experiment_4_heldout_gate/        reported configuration
         ├── code/
