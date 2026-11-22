@@ -13,7 +13,7 @@ train on sites 1 and 2 only, which reduces the Multiome training set from
 
 ## Results
 
-Per-cell RMSE, mean plus or minus one sample standard deviation over the five
+RMSE, mean plus or minus one sample standard deviation over the five
 seeds. Overall 0.2799 ± 0.0012.
 
 | Model | ATAC2GEX | GEX2ATAC | GEX2ADT | ADT2GEX |
