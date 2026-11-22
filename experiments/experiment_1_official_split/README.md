@@ -11,7 +11,7 @@ that same validation partition.
 
 ## Results
 
-Per-cell RMSE, lower is better.
+RMSE, lower is better.
 
 | Model | ATAC2GEX | GEX2ATAC | GEX2ADT | ADT2GEX | Overall |
 |---|---|---|---|---|---|
