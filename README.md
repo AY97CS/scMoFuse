@@ -77,8 +77,6 @@ scMoFuse/
             └── metrics_multiseed.json    five-seed means and standard deviations
 ```
 
-Experiment numbering follows the paper. Each folder holds the exact code that
-produced its results, so any one of them can be run on its own.
 
 ## Data
 
@@ -143,7 +141,7 @@ Two metrics and two controls, all computed over the complete target feature
 space. Chromatin predictions are made in a 512-component LSI basis and expanded
 back to all 116,490 peaks before scoring.
 
-- Per-cell RMSE, the benchmark's ranking metric.
+- RMSE as official ranking metric.
 - Feature-wise Pearson correlation, which measures whether a prediction responds
   to the individual cell.
 - A training-mean control, which returns the per-feature training average for
